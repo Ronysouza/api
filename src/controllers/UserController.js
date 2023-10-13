@@ -10,7 +10,7 @@ module.exports = {
         
         let json = {error:'rfsdf', result:[]};
         
-        //let usuarios = await UserService.getUser() 
+        let usuarios = await UserService.getUser() 
         
     console.log('json retornado no console')
 
