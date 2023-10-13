@@ -7,7 +7,7 @@ const routes = require('./src/routes')
 const server = express()
  server.use(cors()) 
  
- server.use('/',routes);
+ server.use('/',routes)
 
 
  server.use(bodyParser.urlencoded({extended:false}))
