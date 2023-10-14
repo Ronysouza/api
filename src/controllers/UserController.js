@@ -16,8 +16,28 @@ module.exports = {
 
         res.json(json)
 
+ 
+    },
 
+
+
+    getAtualizou: (req, res)=>{
+        
+        let json = {error:'atualizou', result:'servidor aws'};
+        
+        //let usuarios = await UserService.getUser() 
+        
+    console.log('json retornado no console')
+
+        res.json(json)
+
+ 
     }
+
+
+
+
+    
 
 
 
